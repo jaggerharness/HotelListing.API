@@ -1,2 +1,2 @@
 # HotelListing.API
-ASP.NET Core API Project
+Hotel Listing API developed using .NET 7
