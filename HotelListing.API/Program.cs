@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var connectionString = builder.Configuration.GetConnectionString("HotelListingDbConnectionString");
 
-builder.Services.AddDbContext<HotellistingDbContext>(options =>
+builder.Services.AddDbContext<HotelListingDbContext>(options =>
 {
     options.UseSqlServer(connectionString);
 });
